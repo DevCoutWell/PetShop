@@ -15,9 +15,6 @@ body {
     height: 100%;
     max-width: 70%;
     margin: 0 auto;
-
-    
-
 }
 
 header {
@@ -29,7 +26,7 @@ header {
     height: 20%;
     padding: 20px;
     margin: 0 auto;
-
+    
     
 }
 
@@ -43,6 +40,7 @@ p.tittle {
 
 nav{
     margin-left: 100px;
+    box-sizing: border-box;
 }
 
 nav > a {
@@ -53,12 +51,14 @@ nav > a {
     text-decoration: none;
     color: #000000;
     transition: 0.3s;
+    
 }
 
 a:hover{
 
     font-size: 17px;
     font-weight: 700;
+    box-sizing: border-box;
 }
 
 
